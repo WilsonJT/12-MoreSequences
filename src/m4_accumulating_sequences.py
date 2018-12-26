@@ -402,11 +402,10 @@ def rectangles_from_circles(circles):
         bot_left = rg.Point(x1, y1)
         top_right = rg.Point(x2, y2)
         rect = rg.Rectangle(bot_left, top_right)
-        rectangles[i] = rect
+        rectangles.append(rect)
     return rectangles
-
     # -------------------------------------------------------------------------
-    # TODO: 10. Implement and test this function.
+    # DONE: 10. Implement and test this function.
     #     The testing code is already written for you (above).
     #
     ###########################################################################
