@@ -404,6 +404,7 @@ def rectangles_from_circles(circles):
         rect = rg.Rectangle(bot_left, top_right)
         rectangles.append(rect)
     return rectangles
+
     # -------------------------------------------------------------------------
     # DONE: 10. Implement and test this function.
     #     The testing code is already written for you (above).
